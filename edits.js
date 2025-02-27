@@ -3,7 +3,8 @@ async function manager(){
   console.log(commodities);
   let stations = await fetchStuff("./stations.json");
   console.log(stations);
-  stations.sort(sortFunction);
+  stations.sort(sortFunctionStations);
+  console.log(stations);
 }
 
 async function fetchStuff(stuff) {
@@ -12,7 +13,7 @@ async function fetchStuff(stuff) {
     .then(data => {return data});
 }
 
-function sortFunction(a, b) {
+function sortFunctionStations(a, b) {
   return a["system-name"] - b["system-name];
 }
 
