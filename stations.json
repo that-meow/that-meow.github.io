@@ -11,7 +11,7 @@
     },
     {
       "system-name" : "HIP 753",
-      "requirements" : [
+      "requirements" : [ 
         {
           "name" : "Aluminium",
           "count" : 44917
