@@ -7,14 +7,17 @@ async function manager(){
   console.log(stations);
   stations.sort(sortFunctionStations);
   console.log(stations);
-  let title = document.createElement("h1");
-  title.innerHTML = stations[0]["system-name"];
-  document.getElementsByTagName("body")[0].appendChild(title);
   for (let i = 0; i < stations.length; i++) {
     let title = document.createElement("h1");
     title.innerHTML = stations[i]["system-name"];
     document.getElementsByTagName("body")[0].appendChild(title);
-    
+    let tableHeader = document.createElement("thead");
+    tableHeader.innerHTML = "<tr><td>Material</td><td>Amount</td><td>Economy</td><td>Possible buy locations</td></tr>"
+    let tableBody = document.createElement("tbody");
+    let table = document.createElement("table");
+    table.appendChild(tableHeader);
+    table.appendChild(tableBody);
+    document.getElementsByTagName("body")[0].appendChild(table);
   } 
 }
 
