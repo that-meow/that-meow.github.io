@@ -3,96 +3,115 @@
     {
     "id": 1,
     "name": "Aluminium",
+    "economy": "Refinery",
     "EDSM_ID": 801
     },
     {
     "id": 2,
     "name": "Ceramic Composites",
+    "economy": "Surface Refinery",
     "EDSM_ID": 505
     },
     {
     "id": 3,
     "name": "CMM Composite",
+    "economy": "Surface Refinery",
     "EDSM_ID": 508
     },
     {
     "id": 4,
     "name": "Computer Components",
+    "economy": "Industrial",
     "EDSM_ID": 1106
     },
     {
     "id": 5,
     "name": "Copper",
+    "economy": "Refinery",
     "EDSM_ID": 804
     },
     {
     "id": 6,
     "name": "Food Cartridges",
+    "economy": "Industrial",
     "EDSM_ID": 405
     },
     {
     "id": 7,
     "name": "Fruit and Vegetables",
+    "economy": "Agricultural",
     "EDSM_ID": 406
     },
     {
     "id": 8,
     "name": "Insulating Membrane",
+    "economy": "Refinery",
     "EDSM_ID": 507
     },
     {
     "id": 9,
     "name": "Liquid Oxygen",
+    "economy": "Refinery",
     "EDSM_ID": 115
     },
     {
     "id": 10,
     "name": "Medical Diagnostic Equipment",
+    "economy": "High Tech",
     "EDSM_ID": 1120
     },
     {
     "id": 11,
     "name": "Non-lethal Weapons",
+    "economy": "High Tech/Military",
     "EDSM_ID": 1401
     },
     {
     "id": 12,
     "name": "Polymers",
+    "economy": "Refinery",
     "EDSM_ID": 501
     },
     {
     "id": 13,
     "name": "Power Generators",
+    "economy": "Industrial",
     "EDSM_ID": 606
     },
     {
     "id": 14,
     "name": "Semiconductors",
+    "economy": "Refinery",
     "EDSM_ID": 502
     },
     {
     "id": 15,
     "name": "Superconductors",
+    "economy": "Refinery",
     "EDSM_ID": 503
     },
     {
     "id": 16,
     "name": "Steel",
+    "economy": "Refinery",
     "EDSM_ID": 666
     },
     {
     "id": 17,
     "name": "Titanium",
+    "economy": "Refinery",
     "EDSM_ID": 813
     },
     {
     "id": 18,
     "name": "Water",
+    "economy": "Surface Agricultural/Extraction",
     "EDSM_ID": 113
     },
     {
     "id": 19,
     "name": "Water Purifiers",
+    "economy": "Industrial",
     "EDSM_ID": 607
     }
 ]
