@@ -7,9 +7,9 @@ async function manager(){
   console.log(stations);
   stations.sort(sortFunctionStations);
   console.log(stations);
-  let head = document.createElement("h1");
-  head.innerHTML = stations[0]["system-name"];
-  document.appendChild(head);
+  let title = document.createElement("h1");
+  title.innerHTML = stations[0]["system-name"];
+  document.getElementsByTagName("body").appendChild(title);
 }
 
 async function fetchStuff(stuff) {
