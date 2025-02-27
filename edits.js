@@ -49,7 +49,7 @@ async function manager(){
       rowRow.appendChild(rowMaterial);
       rowRow.appendChild(rowAmount);
       rowRow.appendChild(rowEconomy);
-      rowRow.appendChild(rowLink);
+      rowRow.appendChild(rowLinkField);
       tableBody.appendChild(rowRow);
     }
     document.getElementsByTagName("body")[0].appendChild(table);
