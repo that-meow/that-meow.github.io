@@ -2,6 +2,11 @@
     {
     "id": 1,
     "name": "Aluminium",
-    "EDSM_ID": 801,
+    "EDSM_ID": 801
+    },
+    {
+    "id": 1,
+    "name": "Aluminium",
+    "EDSM_ID": 801
     }
 ]
