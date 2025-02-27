@@ -41,6 +41,7 @@ async function manager(){
       rowRow.appendChild(rowAmount);
       rowRow.appendChild(rowEconomy);
       rowRow.appendChild(rowLink);
+      tableBody.appendChild(rowRow);
     }
     document.getElementsByTagName("body")[0].appendChild(table);
   } 
