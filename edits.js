@@ -1,10 +1,12 @@
 async function manager(){
-  let commodities = await fetchCommodities();
+  let commodities = await fetchStuff("./commodities.json");
   console.log(commodities);
+  let stations = await fetchStuff("./stations.json");
+  console.log(stations);
 }
 
-async function fetchCommodities() {
-  return fetch('./commodities.json')
+async function fetchStuff(stuff) {
+  return fetch(stuff)
     .then(res => res.json())
     .then(data => {return data});
 }
