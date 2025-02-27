@@ -14,7 +14,10 @@ async function fetchStuff(stuff) {
 }
 
 function sortFunctionStations(a, b) {
-  return a["system-name"] - b["system-name];
+  return a["system-name"] - b["system-name"];
 }
 
+function sortFunctionCommodities(a, b) {
+  return a["name"] - b["name"];
+}
 manager();
