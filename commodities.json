@@ -15,6 +15,11 @@
     "EDSM_ID": 508
     },
     {
+    "id": 4,
+    "name": "Computer Components",
+    "EDSM_ID": 1106
+    },
+    {
     "id": 500,
     "name": "idk yet",
     "EDSM_ID": 999
