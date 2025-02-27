@@ -9,7 +9,7 @@ async function manager(){
   console.log(stations);
   for (let i = 0; i < stations.length; i++) { //looping through stations
     let tableHeader = document.createElement("thead");
-    tableHeader.innerHTML = "<tr><td colspan="6"><h1>" + stations[i]["system-name"] + "</h1></td></tr><tr><td>Material</td><td>Amount</td><td>Economy</td><td>Possible buy locations</td></tr>"
+    tableHeader.innerHTML = '<tr><td colspan="6"><h1>' + stations[i]["system-name"] + "</h1></td></tr><tr><td>Material</td><td>Amount</td><td>Economy</td><td>Possible buy locations</td></tr>"
     let tableBody = document.createElement("tbody");
     let table = document.createElement("table");
     table.appendChild(tableHeader);
