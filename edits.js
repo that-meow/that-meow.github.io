@@ -67,3 +67,4 @@ function sortFunctionCommodities(a, b) {
   return ('' + a["name"]).localeCompare(b["name"]);
 }
 manager();
+//v1
