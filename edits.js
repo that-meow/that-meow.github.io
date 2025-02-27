@@ -2,7 +2,7 @@ async function manager(){
   let commoditiesObject = await fetchStuff("./commodities.json");
   let commodities = await commoditiesObject["commodities"];
   console.log(commodities);
-  let stationsObject = await fetchStuff("./stations.json");
+  let stationsObject = await fetchStuff("https://raw.githubusercontent.com/that-meow/that-meow.github.io/refs/heads/main/stations.json");
   let stations = stationsObject["stations"];
   console.log(stations);
   stations.sort(sortFunctionStations);
