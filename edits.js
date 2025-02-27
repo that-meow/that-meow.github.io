@@ -1,3 +1,7 @@
+async function manager(){
+  let commodities = await fetchCommodities();
+  console.log(commodities);
+}
 
 async function fetchCommodities() {
   return fetch('./commodities.json')
@@ -5,4 +9,4 @@ async function fetchCommodities() {
     .then(data => {return data});
 }
 
-console.log(await fetchCommodities());
+manager();
