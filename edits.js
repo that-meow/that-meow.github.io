@@ -14,6 +14,7 @@ async function manager(){
     let table = document.createElement("table");
     table.appendChild(tableHeader);
     table.appendChild(tableBody);
+    table.class = "bordered;
     for (let j = 0; j < stations[i]["requirements"].length; j++) { //looping through requirements
       let neededCommodity;
       for (commodity of commodities) { //look for matching commodity in commodities
