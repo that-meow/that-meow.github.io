@@ -19,7 +19,7 @@ async function manager(){
     table.appendChild(tableBody);
     for (let j = 0; j < stations[i]["requirements"].length; j++) { //looping through requirements
       let neededCommodity;
-      for(commodity in commodities) { //look for matching commodity in commodities
+      for (commodity of commodities) { //look for matching commodity in commodities
         console.log(commodity["name"]);
         console.log(stations[i]["requirements"][j]["name"]);
         if (commodity["name"] == stations[i]["requirements"][j]["name"]) {
