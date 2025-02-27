@@ -66,8 +66,16 @@
           "count" : 50484
         },
         {
+          "name" : "Copper",
+          "count" : 2827
+        },
+        {
           "name" : "Fruit and Vegetables",
           "count" : 276
+        },
+        {
+          "name" : "Food Cartridges",
+          "count" : 472
         },
         {
           "name" : "Insulating Membrane",
