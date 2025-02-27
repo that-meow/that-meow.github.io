@@ -21,9 +21,79 @@
     "EDSM_ID": 1106
     },
     {
-    "id": 500,
-    "name": "idk yet",
-    "EDSM_ID": 999
+    "id": 5,
+    "name": "Copper",
+    "EDSM_ID": 804
+    },
+    {
+    "id": 6,
+    "name": "Food Cartridges",
+    "EDSM_ID": 405
+    },
+    {
+    "id": 7,
+    "name": "Fruit and Vegetables",
+    "EDSM_ID": 406
+    },
+    {
+    "id": 8,
+    "name": "Insulating Membrane",
+    "EDSM_ID": 507
+    },
+    {
+    "id": 9,
+    "name": "Liquid Oxygen",
+    "EDSM_ID": 115
+    },
+    {
+    "id": 10,
+    "name": "Medical Diagnostic Equipment",
+    "EDSM_ID": 1120
+    },
+    {
+    "id": 11,
+    "name": "Non-lethal Weapons",
+    "EDSM_ID": 1401
+    },
+    {
+    "id": 12,
+    "name": "Polymers",
+    "EDSM_ID": 501
+    },
+    {
+    "id": 13,
+    "name": "Power Generators",
+    "EDSM_ID": 606
+    },
+    {
+    "id": 14,
+    "name": "Semiconductors",
+    "EDSM_ID": 502
+    },
+    {
+    "id": 15,
+    "name": "Superconductors",
+    "EDSM_ID": 503
+    },
+    {
+    "id": 16,
+    "name": "Steel",
+    "EDSM_ID": 666
+    },
+    {
+    "id": 17,
+    "name": "Titanium",
+    "EDSM_ID": 813
+    },
+    {
+    "id": 18,
+    "name": "Water",
+    "EDSM_ID": 113
+    },
+    {
+    "id": 19,
+    "name": "Water Purifiers",
+    "EDSM_ID": 607
     }
 ]
 }
