@@ -1,8 +1,8 @@
 
 function fetchCommodities() {
-  fetch('./commodities.json')
+  await fetch('./commodities.json')
     .then(res => res.json())
-    .then(data => {console.log(data)});
+    .then(data => {return data});
 }
 
 console.log(fetchCommodities());
