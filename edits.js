@@ -20,12 +20,14 @@ async function manager(){
     for (let j = 0; j < stations[i]["requirements"].length; j++) { //looping through requirements
       let neededCommodity;
       for(commodity in commodities) { //look for matching commodity in commodities
+        console.log(commodity["name"]);
+        console.log(stations[i]["requirements"][j]["name"]);
         if (commodity["name"] == stations[i]["requirements"][j]["name"]) {
           neededCommodity = commodity;
           break;
         }
       }
-      let rowMaterial = document.createElement("td")
+      let rowMaterial = document.createElement("td");
       rowMaterial.innerText = neededCommodity["name"];
       let rowAmount = document.createElement("td");
       rowAmount.innerText = stations[i]["requirements"][j]["count"];
