@@ -9,7 +9,7 @@ async function manager(){
   console.log(stations);
   let title = document.createElement("h1");
   title.innerHTML = stations[0]["system-name"];
-  document.getElementsByTagName("body").appendChild(title);
+  document.getElementsByTagName("body")[0].appendChild(title);
 }
 
 async function fetchStuff(stuff) {
