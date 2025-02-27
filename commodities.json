@@ -1,6 +1,7 @@
-{
-  "email": [
-    "jd@example.com",
-    "jd@example.org"
-  ]
-}
+"commodities": [
+    {
+    "id": 1,
+    "name": "Aluminium",
+    "EDSM_ID": 801,
+    }
+]
