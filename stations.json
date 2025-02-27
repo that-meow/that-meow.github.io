@@ -1,0 +1,62 @@
+{
+"stations": [
+    {
+      "system-name" : "ICZ LC-V c2-20",
+      "requirements" : [
+        {
+          "name" : "CMM Composite",
+          "count" : 4588
+        }
+      ]
+    }
+    {
+      "system-name" : "ICZ LC-V c2-20",
+      "requirements" : [
+        {
+          "name" : "Aluminium",
+          "count" : 44917
+        },
+        {
+          "name" : "Ceramic Composites",
+          "count" : 4895
+        },
+        {
+          "name" : "CMM Composite",
+          "count" : 51565
+        },
+        {
+          "name" : "Copper",
+          "count" : 2462
+        },
+        {
+          "name" : "Fruit and Vegetables",
+          "count" : 294
+        },
+        {
+          "name" : "Insulating Membrane",
+          "count" : 1657
+        },
+        {
+          "name" : "Liquid Oxygen",
+          "count" : 16895
+        },
+        {
+          "name" : "Polymers",
+          "count" : 1730
+        },
+        {
+          "name" : "Steel",
+          "count" : 67627
+        },
+        {
+          "name" : "Titanium",
+          "count" : 39535
+        },
+        {
+          "name" : "Water",
+          "count" : 7928
+        }
+      ]
+    }
+]
+}
