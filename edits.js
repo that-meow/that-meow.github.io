@@ -7,7 +7,7 @@ async function manager(){
   console.log(stations);
   stations.sort(sortFunctionStations);
   console.log(stations);
-  for (let i = 0; i < stations.length; i++) {
+  for (let i = 0; i < stations.length; i++) { //looping through stations
     let title = document.createElement("h1");
     title.innerHTML = stations[i]["system-name"];
     document.getElementsByTagName("body")[0].appendChild(title);
@@ -17,6 +17,31 @@ async function manager(){
     let table = document.createElement("table");
     table.appendChild(tableHeader);
     table.appendChild(tableBody);
+    for (let j = 0; j < stations[i]["requirements"].length; j++) { //looping through requirements
+      let neededCommodity;
+      for(commodity in commodities) { //look for matching commodity in commodities
+        if commodity["name"] == stations[i]["requirements"][j]["name"] {
+          neededCommodity = commodity;
+          break;
+        }
+      }
+      let rowMaterial = document.createElement("td")
+      rowMaterial.innerText = neededCommodity["name"];
+      let rowAmount = document.createElement("td");
+      rowAmount.innerText = stations[i]["requirements"][j]["count"];
+      let rowEconomy = document.createElement("td");
+      rowEconomy.innerText = neededCommodity["economy"];
+      let rowLinkField = document.createElement("td");
+      let rowLink = document.createElement("a");
+      rowLink.href = "https://www.edsm.net/en/search/stations/index/buyCommodity/" + neededCommodity["EDSM_ID"] + "/cmdrPosition/" + stations[i]["system-name"] + "/sortBy/distanceCMDR";
+      rowLink.innerHTML = "EDSM";
+      rowLinkField.appendChild(rowLink);
+      let rowRow = document.createElement("tr");
+      rowRow.appendChild(rowMaterial);
+      rowRow.appendChild(rowAmount);
+      rowRow.appendChild(rowEconomy);
+      rowRow.appendChild(rowLink);
+    }
     document.getElementsByTagName("body")[0].appendChild(table);
   } 
 }
