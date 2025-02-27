@@ -1,7 +1,7 @@
 async function manager(){
   let commodities = await fetchStuff("./commodities.json");
   console.log(commodities);
-  let stations = await fetchStuff("./stations.json");
+  let stations = await fetchStuff("./stations.json")["stations"];
   console.log(stations);
   stations.sort(sortFunctionStations);
   console.log(stations);
