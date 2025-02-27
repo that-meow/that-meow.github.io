@@ -20,7 +20,7 @@ async function manager(){
     for (let j = 0; j < stations[i]["requirements"].length; j++) { //looping through requirements
       let neededCommodity;
       for(commodity in commodities) { //look for matching commodity in commodities
-        if commodity["name"] == stations[i]["requirements"][j]["name"] {
+        if (commodity["name"] == stations[i]["requirements"][j]["name"]) {
           neededCommodity = commodity;
           break;
         }
@@ -33,8 +33,15 @@ async function manager(){
       rowEconomy.innerText = neededCommodity["economy"];
       let rowLinkField = document.createElement("td");
       let rowLink = document.createElement("a");
-      rowLink.href = "https://www.edsm.net/en/search/stations/index/buyCommodity/" + neededCommodity["EDSM_ID"] + "/cmdrPosition/" + stations[i]["system-name"] + "/sortBy/distanceCMDR";
-      rowLink.innerHTML = "EDSM";
+      if (neededCommodity["EDSM_ID"] != 666) {
+        rowLink.href = "https://www.edsm.net/en/search/stations/index/buyCommodity/" + neededCommodity["EDSM_ID"] + "/cmdrPosition/" + stations[i]["system-name"] + "/sortBy/distanceCMDR";
+        rowLink.innerHTML = "EDSM";
+      }
+      else
+      {
+        rowLink.href = "https://inara.cz/elite/commodities/?formbrief=1&pi1=1&pa1%5B%5D=10487&ps1=HIP+753&pi10=3&pi11=0&pi3=1&pi9=0&pi4=1&pi14=0&pi5=720&pi12=0&pi7=0&pi8=0&pi13=0";
+        rowLink.innerHTML = "Inara";
+      }
       rowLinkField.appendChild(rowLink);
       let rowRow = document.createElement("tr");
       rowRow.appendChild(rowMaterial);
