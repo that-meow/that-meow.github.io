@@ -7,6 +7,7 @@ async function manager(){
   console.log(stations);
   stations.sort(sortFunctionStations);
   console.log(stations);
+  document.innerHTML("<h1>" + stations[0]["system-name"] + "</h1>);
 }
 
 async function fetchStuff(stuff) {
