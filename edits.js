@@ -13,7 +13,8 @@ async function manager(){
   for (let i = 0; i < stations.length; i++) {
     let title = document.createElement("h1");
     title.innerHTML = stations[i]["system-name"];
-    document.getElementsByTagName("body")[i].appendChild(title);
+    document.getElementsByTagName("body")[0].appendChild(title);
+    
   } 
 }
 
