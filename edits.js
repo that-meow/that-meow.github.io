@@ -2,7 +2,7 @@
 function fetchCommodities() {
   fetch('./commodities.json')
     .then(res => res.json())
-    .then(data => {return data});
+    .then(data => {console.log(data)});
 }
 
 console.log(fetchCommodities());
