@@ -49,6 +49,79 @@
           "count" : 7928
         }
       ]
+    },
+    {
+      "system-name" : "ICZ RY-R b4-1",
+      "requirements" : [ 
+        {
+          "name" : "Aluminium",
+          "count" : 46875
+        },
+        {
+          "name" : "Ceramic Composites",
+          "count" : 5172
+        },
+        {
+          "name" : "CMM Composite",
+          "count" : 50484
+        },
+        {
+          "name" : "Fruit and Vegetables",
+          "count" : 276
+        },
+        {
+          "name" : "Insulating Membrane",
+          "count" : 1383
+        },
+        {
+          "name" : "Liquid Oxygen",
+          "count" : 17542
+        },
+        {
+          "name" : "Steel",
+          "count" : 64347
+        },
+        {
+          "name" : "Medical Diagnostic Equipment",
+          "count" : 50
+        },
+        {
+          "name" : "Non-Lethal Weapons",
+          "count" : 52
+        },
+        {
+          "name" : "Titanium",
+          "count" : 40970
+        },
+        {
+          "name" : "Polymers",
+          "count" : 2048
+        },
+        {
+          "name" : "Power Generators",
+          "count" : 134
+        },
+        {
+          "name" : "Semiconductors",
+          "count" : 445
+        },
+        {
+          "name" : "Superconductors",
+          "count" : 687
+        },
+        {
+          "name" : "Water",
+          "count" : 7824
+        },
+        {
+          "name" : "Computer Components",
+          "count" : 392
+        },
+        {
+          "name" : "Water Purifiers",
+          "count" : 211
+        }
+      ]
     }
 ]
 }
