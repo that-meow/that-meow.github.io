@@ -4,9 +4,17 @@
     "name": "Aluminium",
     "EDSM_ID": 801
     },
+    "id": 2,
+    "name": "Ceramic Composites",
+    "EDSM_ID": 505
+    },
+    "id": 3,
+    "name": "CMM Composite",
+    "EDSM_ID": 508
+    },
     {
-    "id": 1,
-    "name": "Aluminium",
-    "EDSM_ID": 801
+    "id": 500,
+    "name": "idk yet",
+    "EDSM_ID": 999
     }
 ]
