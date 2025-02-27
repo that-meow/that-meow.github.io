@@ -22,11 +22,7 @@
         },
         {
           "name" : "CMM Composite",
-          "count" : 51565
-        },
-        {
-          "name" : "Copper",
-          "count" : 2462
+          "count" : 51485
         },
         {
           "name" : "Fruit and Vegetables",
@@ -39,10 +35,6 @@
         {
           "name" : "Liquid Oxygen",
           "count" : 16895
-        },
-        {
-          "name" : "Polymers",
-          "count" : 1730
         },
         {
           "name" : "Steel",
