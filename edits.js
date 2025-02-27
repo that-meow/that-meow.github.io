@@ -1,8 +1,8 @@
 
-function fetchCommodities() {
-  await fetch('./commodities.json')
+async function fetchCommodities() {
+  return fetch('./commodities.json')
     .then(res => res.json())
     .then(data => {return data});
 }
 
-console.log(fetchCommodities());
+console.log(await fetchCommodities());
