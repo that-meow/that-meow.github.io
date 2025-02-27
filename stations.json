@@ -14,7 +14,7 @@
       "requirements" : [ 
         {
           "name" : "Aluminium",
-          "count" : 44917
+          "count" : 44784
         },
         {
           "name" : "Ceramic Composites",
@@ -34,7 +34,7 @@
         },
         {
           "name" : "Liquid Oxygen",
-          "count" : 16895
+          "count" : 16353
         },
         {
           "name" : "Steel",
