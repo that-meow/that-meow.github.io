@@ -6,7 +6,7 @@
 
         }
 
-	progress {
+	progress::webkit-progress-value {
 		background: linear-gradient(blue, orange, red)
 	}
         table {
