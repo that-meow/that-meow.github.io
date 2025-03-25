@@ -7,7 +7,7 @@
         }
 
 	progress {
-		color: linear-gradient(blue, orange, red)
+		image: linear-gradient(blue, orange, red)
 	}
         table {
 
