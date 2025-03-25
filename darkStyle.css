@@ -6,6 +6,9 @@
 
         }
 
+	progress {
+		color: linear-gradient(blue, orange, red)
+	}
         table {
 
             border-collapse: collapse;
