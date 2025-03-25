@@ -1,0 +1,66 @@
+
+
+        table, th, td {
+
+            border: 1px solid;
+
+        }
+
+        table {
+
+            border-collapse: collapse;
+
+        }
+
+	    html {
+
+	    	background-color: #152535;
+
+	    }
+
+	    td, label, h1, h2, h3, p {
+
+		    color: #BBBBBB;
+
+            padding: 5px
+
+	    }
+	
+	.dontPad {
+		padding:auto
+	}
+
+	.noBottoms {
+		margin-bottom: 0%;
+		padding-bottom: 0px
+		
+	}
+
+        .spacer {
+
+            margin-top: 0px;
+
+	    padding-top: 0px;
+
+            font-size: smaller;
+
+            padding-bottom: 5px
+
+        }
+
+        .data-href { cursor: pointer; }
+	.unbordered {
+
+		border: 0px;
+
+	}
+	
+	a {
+		color:#FFFFFF;
+	}
+	.centerAlign {
+		text-align:center;
+	}
+	.centerMargin {
+		margin:auto;
+	}
